@@ -16,7 +16,7 @@ class MyWindow(QMainWindow):
         passwd = self.ui.passwd_Edit.text()
 
         if user_name != "" and passwd != "":
-            self.ui.info_show.setText(user_name+"正在登录中...，请等待")
+            self.ui.info_show.setText(user_name+"正在登录中...请等待")
         else :
             self.ui.info_show.setText("")
         self.ui.info_show.repaint()
